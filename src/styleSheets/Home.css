@@ -1,0 +1,11 @@
+.contenedor-home {
+    height: 100vh; /* h-screen en Tailwind CSS se puede expresar como height: 100vh en CSS puro */
+    width: 100vw;  /* w-screen en Tailwind CSS se puede expresar como width: 100vw en CSS puro */
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .img-home {
+    height: 10px;
+    width: 5px;
+  }
