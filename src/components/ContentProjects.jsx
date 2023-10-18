@@ -40,7 +40,7 @@ export const ContentProjects = () => {
             <Proyectos
                 img='counter'
                 titulo='COUNTER CLIC REACT'
-                descripcion='contador de clics desarrollado con React. Su funcion principal es rastrear y mostrar el número de clics realizados por el usuario. El contador cuenta con dos botones: uno para iniciar y otro para restablecer el contador a cero. Se ajusta a diferentes dispositivos.'
+                descripcion='Aplicacion web interactiva de contador de clics desarrollado con React. Su funcion principal es rastrear y mostrar el número de clics realizados por el usuario. El contador tiene con dos botones: uno para iniciar y otro para restablecer el contador a cero. Se ajusta a diferentes dispositivos.'
                 herramientas='React, JavaScript, CSS, Html, GitHub, Vercel' />
 
             <Proyectos
