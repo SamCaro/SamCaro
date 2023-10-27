@@ -2,7 +2,7 @@ import perfil from '../assets/img/perfil.png';
 
 export const Home = () => {
   return (
-    <div className='h-screen w-screen overFlow-hidden'>
+    <div className=' h-[200px]'>
       <img 
         alt='Developer'
         src={perfil}

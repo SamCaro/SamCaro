@@ -4,10 +4,9 @@ export const ContentProjects = () => {
     return (
 
         <div className='contenedor-principal'>
-            <h1>PROYECTOS</h1>
-
+            <h1 className='px-40 text-[30px] px-[600px]'>PROYECTOS</h1>
             <Proyectos
-                img='burgerQueenApi'
+                img='burgerQueenApi' 
                 titulo='BURGER QUEEN API'
                 descripcion='App que permite administrar consultas entrantes y ofrecer respuestas eficientes en relacion con la gestión de órdenes, trabajadores y productos de un restaurante. Los endpoints permiten agregar, visualizar, modificar y eliminar datos de manera eficiente, brindando un control total sobre la operaciones.'
                 herramientas='JavaScript, Node.js, Express, Prisma, PostgreSQL, JSON Web Tokens (JWT), Git, Notion, GitHub, Vercel' />
