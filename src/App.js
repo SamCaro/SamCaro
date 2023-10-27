@@ -1,20 +1,16 @@
-// import logo from './logo.svg';
-import './App.css';
 import { ContentProjects } from './components/ContentProjects';
-// import { Proyectos } from './components/Proyectos';
 import { Home } from './components/Home';
-import { Menu } from './components/Menu';
+import { Header } from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header> */}
-      <Menu />
-      <Home />
-      <ContentProjects />
-    </div>
+    <main className='px-4 pt-6'>
+      <div className="App">
+        <Header />
+        <Home />
+        <ContentProjects />
+      </div>
+    </main>
   );
 }
 

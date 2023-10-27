@@ -5,7 +5,7 @@ export function Proyectos(props) {
       <div className='contenedor-proyectos'>
         <img 
         className='img-proyectos'
-         src={require(`../img/proyecto-${props.img}.gif`)} 
+         src={require(`../assets/img/proyecto-${props.img}.gif`)} 
         alt='Gif proyecto' />
         <div className='contenedor-text-proyectos'>
           <p className='titulo-proyecto'>
