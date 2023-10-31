@@ -1,4 +1,4 @@
-.contenedor-proyectos {
+/* .contenedor-proyectos {
     width: 1170px;
     height: 368px;
     margin: 10px 10px 50px;
@@ -11,7 +11,7 @@
 
 
 .img-proyectos  {
-    height: 100%;
+    height: 50%;
     width: auto;
   }
 
@@ -32,4 +32,4 @@
   .descripcion-proyecto {
     font-size: 1.1rem;
     text-align: justify;
-  }
+  } */

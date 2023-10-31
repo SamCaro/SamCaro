@@ -1,15 +1,15 @@
-import { ContentProjects } from './components/ContentProjects';
-import { Home } from './components/Home';
-import { Header } from './components/Header';
+ import { ContainerProjects } from './components/ContainerProjects';
+ import { Home } from './components/Home';
+ import { Header } from './components/Header';
 
 function App() {
   return (
-    <main className='px-4 pt-6'>
-      <div className="App">
-        <Header />
+    <main className='bg-zinc-300 px-20 pt-6'>
+      <Header />
+      <div className="md:flex md:gap-8">
         <Home />
-        <ContentProjects />
       </div>
+      <ContainerProjects />
     </main>
   );
 }

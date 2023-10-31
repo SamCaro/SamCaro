@@ -2,22 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    screens: {
-      '2x1': {'max': '1535px'},
-      // => @media (max-width: 1535px) { ... }
-
-      'x1': {'max': '1279px'},
-      // => @media (max-width: 1279px) { ... }
-
-      'lg': {'max': '1023px'},
-      // => @media (max-width: 1023px) { ... }
-
-      'md': {'max': '767px'},
-      // => @media (max-width: 767px) { ... }
-
-      'sm': {'max': '639px'},
-      // => @media (max-width: 639px) { ... }
-    },
+    extend: {
+      colors: {
+        military: '#1F5014',
+        GrayishBlue: 'hsl(233, 8%, 79%)',
+        DarkGrayisBlue: 'hsl(236, 13%, 42%)',
+        VeryDarkBlue: 'hsl(236, 13%, 42%)',
+        SoftOrange: 'hsl(35, 77%, 62%)',
+      }
+    }
   },
   plugins: [],
 }
