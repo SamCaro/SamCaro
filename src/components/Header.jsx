@@ -5,7 +5,7 @@ import '../styleSheets/Header.css'
 import { Link } from 'react-router-dom';
 
 export const Header = () => {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(true);
 
   const toggleMenu = () => {
     setMenu(!menu);
@@ -19,11 +19,11 @@ export const Header = () => {
       <div className='flex flex-col items-center sm:flex-row'>
         <button className='Header-button sm:hidden' onClick={toggleMenu}>
           
-          <img className={`Header-menu w-12 h-10 cursor-pointer ${menu ? 'opacity-0' : '' }`} src={burgerMenu} alt='Menu Hamburguesa' />
+          <img className={`Header-menu w-12 h-10 cursor-pointer ${menu ? 'opacity-1' : '' }`} src={burgerMenu} alt='Menu Hamburguesa' />
         </button>
 
-        <nav className={`Header-nav ${menu ? 'isActive w-100  bg-DarkGrayisBlue text-GrayishBlue p-20' : ''}`}>
-          <ul className=' Header-ul flex flex-col text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px] sm:items-center'>
+        <nav className={`Header-nav sm:flex sm:bg-zinc-300 sm:text-black ${menu ? 'isActive w-100  bg-DarkGrayisBlue text-GrayishBlue p-20 ' : ''}`}>
+          <ul className=' Header-ul flex flex-col text-[16px] sm:w-[438px] sm:text-[18px] sm:place-content-around sm:items-center sm:flex-row sm:space-x-4'>
             <Link to='/' className='hover:text-white' >
               HOME
             </Link>
