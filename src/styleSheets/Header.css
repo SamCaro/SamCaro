@@ -1,8 +1,15 @@
 .Header-nav {
-    display: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
 }
 
 .Header-nav.isActive {
-    display: flex;
+    height: 50vh;
+    opacity: 1;
 }
 
