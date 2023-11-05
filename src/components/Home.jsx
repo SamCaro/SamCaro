@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <>
     <Header />
-    <section className='h-screen bg-zinc-300 py-2'>
+    <section className='h-screen p-3 bg-zinc-300 pt-20 sm:mt-[-150px]'>
       <div className='sm:flex  sm:justify-evenly'>
         <div className='bg-zinc-300 sm:text-[40px] black  flex flex-col justify-center items-center'>
           <h1 className="text-5xl font-bold text-black">Hi! I'm SANDRA CARO</h1>
@@ -18,7 +18,7 @@ export const Home = () => {
         <img
           alt='Developer'
           src={perfil}
-          className='bg-zinc-300 w:1/6  md:w-1/5 sm:w-1/3 sm:h-auto rounded-full' />
+          className='bg-zinc-300 ml-20 w-[200px]  sm:w-1/4  sm:h-auto rounded-full' />
       </div>
 
       <div className='flex items-center justify-center space-x-10 relative mt-6'>
@@ -35,6 +35,12 @@ export const Home = () => {
         </a>
       </div>
     </section>
+    {/* <footer className="bg-DarkGrayisBlue text-white p-1.5">
+  <div className="container mx-auto text-center">
+    <p>&copy; 2023  S.C</p>
+  </div>
+</footer> */}
+
     </>
   );
 };
