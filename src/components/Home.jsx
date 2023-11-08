@@ -9,19 +9,19 @@ export const Home = () => {
   return (
     <>
     <Header />
-    <section className='h-screen p-3 bg-white pt-20 sm:mt-[-150px]'>
-      <div className='sm:flex  sm:justify-evenly'>
-        <div className='bg-white sm:text-[40px] black  flex flex-col justify-center items-center'>
+    <section className='h-screen p-3 pt-20 sm:mt-[-150px]'>
+      <div className='flex flex-col sm:flex  sm:justify-evenly'>
+        <div className='bg-white ml-20 sm:text-[40px] black  flex flex-col justify-center items-center'>
           <h1 className="text-5xl font-bold text-black">Hi! I'm SANDRA CARO</h1>
           <p className="text-4xl font-normal text-black">Frontend Developer</p>
         </div>
         <img
           alt='Developer'
           src={perfil}
-          className=' ml-20 w-[200px]  sm:w-1/4  sm:h-auto rounded-full' />
+          className='bg-zinc-300 ml-10 w-[200px]  sm:w-1/2 sm:ml-[300px] sm:h-auto rounded-full' />
       </div>
 
-      <div className='flex items-center justify-center space-x-10 relative mt-6'>
+      <div className='mt-60 mr-8 space-x-10 relative sm:mr-2 sm:mt-40 '>
         <a href='https://www.linkedin.com/in/sandracaroquiroga/' target='_blank' rel="noreferrer">
           <img className='w-10 rounded-f hover:border-2 hover:border-white hover:rounded-full' src={linkedin} alt='Logo Linkedin' />
         </a>
