@@ -1,4 +1,4 @@
-section{
+section {
   display: flex;
   justify-content: space-around;
 }
@@ -12,7 +12,7 @@ section{
 
 .overlay {
   position: absolute;
-top: -100px;
+  top: -100px;
   left: 2;
   width: 100%;
   height: 50%;
@@ -29,12 +29,13 @@ top: -100px;
   position: relative;
   margin-top: 20px;
   transition: height 0.3s ease;
-  background: rgba(74, 71, 80, 0.801);
+  /* background: rgba(74, 71, 80, 0.801); */
+  background: rgba(3, 3, 3, 0.795);
 }
 
 .content {
   text-align: center;
-  color: white;
+  color: rgba(246, 242, 252, 0.856);
   padding: 20px;
 }
 
@@ -42,8 +43,7 @@ top: -100px;
   display: inline-block;
   width: 250px;
   height: 30px;
-  background-color: rgb(31, 28, 36);
-
+  background-color: rgba(0, 0, 0, 0.521);
   color: white;
   padding: 4px;
   font-size: 12px;
@@ -55,5 +55,5 @@ top: -100px;
 }
 
 .demo-button:hover {
-  background-color: rgb(190, 169, 238);
+  background-color: rgba(0, 0, 0, 0.993);
 }
