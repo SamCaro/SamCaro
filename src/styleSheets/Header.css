@@ -1,0 +1,16 @@
+
+.Header-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.Header-nav.isActive {
+    height: 20vh;
+    opacity: 1;
+}
+

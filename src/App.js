@@ -1,17 +1,25 @@
-import { ContentProjects } from './components/ContentProjects';
+import './styleSheets/App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Projects } from './components/Projects';
 import { Home } from './components/Home';
-import { Header } from './components/Header';
+import { AboutMe } from './components/AboutMe'
+import { ContactForm } from './components/ContactForm'
 
 function App() {
   return (
-    <main className='px-4 pt-6'>
-      <div className="App">
-        <Header />
-        <Home />
-        <ContentProjects />
-      </div>
-    </main>
+    <BrowserRouter>
+      <main>
+        <Routes>
+          <Route path='' element={<Home />} />
+          <Route path='AboutMe' element={<AboutMe />} />
+          <Route path='Projects' element={<Projects />} />
+          <Route path='Contact' element={<ContactForm />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
+
   );
 }
 
 export default App;
+

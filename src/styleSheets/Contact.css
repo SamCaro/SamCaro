@@ -1,0 +1,6 @@
+.vertical-text {
+    writing-mode: vertical-rl; /* Establece la orientación vertical de derecha a izquierda */
+    transform: rotate(180deg);  /* Rota el texto 180 grados */
+    transform-origin: center;   /* Establece el punto de rotación en el centro */
+  }
+  
