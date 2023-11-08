@@ -35,7 +35,7 @@ export const ContactForm = () => {
   return (
     <>
       <Header />
-      <article className='bg-zinc-300 h-20 rounded-bl-[50px] sm:rounded-bl-[70px] sm:h-[300px]'>
+      <article className='bg-white h-20 rounded-bl-[50px] sm:rounded-bl-[70px] sm:h-[300px]'>
         <h1 className=' text-[30px] sm:text-[40px] text-Roboto ml-[140px] sm:ml-[230px] '>CONTACT</h1>
 
         {/* <AnimationLogo /> */}

@@ -22,18 +22,18 @@ export const Header = () => {
           <img className={`Header-menu w-12 h-10 cursor-pointer ${menu ? 'opacity-1' : '' }`} src={burgerMenu} alt='Menu Hamburguesa' />
         </button>
 
-        <nav className={`Header-nav sm:mt-[-100px] sm:flex sm:bg-zinc-300 sm:text-black ${menu ? 'isActive w-100  bg-DarkGrayisBlue text-GrayishBlue p-10' : ''}`}>
+        <nav className={`Header-nav sm:mt-[-100px] sm:flex sm:bg-withe sm:text-black ${menu ? 'isActive w-100  bg-white text-GrayishBlue p-10' : ''}`}>
           <ul className=' Header-ul flex flex-col text-[16px] sm:w-[400px] sm:text-[18px] sm:place-content-around sm:items-center sm:flex-row sm:space-x-4 sm:ml-40'>
-            <Link to='/' className='hover:text-white' >
+            <Link to='/' className='hover:text-zinc-300' >
               HOME
             </Link>
-            <Link to='/AboutMe' className='Header-li hover:text-white'>
+            <Link to='/AboutMe' className='Header-li hover:text-zinc-300'>
              ABOUT ME
             </Link>
-            <Link to='/Projects'className='Header-li hover:text-white'>
+            <Link to='/Projects'className='Header-li hover:text-zinc-300'>
              PROJECTS
             </Link>
-            <Link to='/Contact' className='Header-li hover:text-white'>
+            <Link to='/Contact' className='Header-li hover:text-zinc-300'>
               CONTACT
             </Link>
           </ul>

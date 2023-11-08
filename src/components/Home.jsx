@@ -9,16 +9,16 @@ export const Home = () => {
   return (
     <>
     <Header />
-    <section className='h-screen p-3 bg-zinc-300 pt-20 sm:mt-[-150px]'>
+    <section className='h-screen p-3 bg-white pt-20 sm:mt-[-150px]'>
       <div className='sm:flex  sm:justify-evenly'>
-        <div className='bg-zinc-300 sm:text-[40px] black  flex flex-col justify-center items-center'>
+        <div className='bg-white sm:text-[40px] black  flex flex-col justify-center items-center'>
           <h1 className="text-5xl font-bold text-black">Hi! I'm SANDRA CARO</h1>
           <p className="text-4xl font-normal text-black">Frontend Developer</p>
         </div>
         <img
           alt='Developer'
           src={perfil}
-          className='bg-zinc-300 ml-20 w-[200px]  sm:w-1/4  sm:h-auto rounded-full' />
+          className=' ml-20 w-[200px]  sm:w-1/4  sm:h-auto rounded-full' />
       </div>
 
       <div className='flex items-center justify-center space-x-10 relative mt-6'>

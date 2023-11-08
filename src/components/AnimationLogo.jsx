@@ -13,7 +13,7 @@ const AnimationLogo = () => {
   };
 
   return (
-    <div className="bg-zinc-300 ml-[200px] w-[200px] h-[200px] flex justify-center items-center">
+    <div className=" ml-[200px] w-[200px] h-[200px] flex justify-center items-center">
       <div
         onMouseEnter={handleHover}
         onMouseLeave={handleUnhover}

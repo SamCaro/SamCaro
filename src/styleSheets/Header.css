@@ -1,6 +1,4 @@
-.Header {
-    background: rgba(152, 142, 163, 0.418)
-}
+
 .Header-nav {
     display: flex;
     flex-flow: column nowrap;
