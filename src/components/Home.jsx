@@ -15,10 +15,11 @@ export const Home = () => {
           <h1 className="text-5xl font-bold text-black">Hi! I'm SANDRA CARO</h1>
           <p className="text-4xl font-normal text-black">Frontend Developer</p>
         </div>
-        <img
+         <img
           alt='Developer'
           src={perfil}
-          className='bg-zinc-300 ml-10 w-[200px]  sm:w-1/2 sm:ml-[300px] sm:h-auto rounded-full' />
+          className='bg-zinc-300 ml-10 w-[200px]  sm:w-1/2 sm:ml-[300px] sm:h-auto rounded-full' /> 
+
       </div>
 
       <div className='mt-60 mr-8 space-x-10 relative sm:mr-2 sm:mt-40 '>
