@@ -10,7 +10,8 @@ export const Projects = () => {
                     img='burgerQueenApi'
                     titulo='BURGER QUEEN API'
                     descripcion='App que administra consultas entrantes y ofrecer respuestas en relacion con la gestión de órdenes, trabajadores y productos de un restaurante. Los endpoints agregan, visualizan, modifican y eliminan datos brindando un control total sobre la operaciones.'
-                    skills='JavaScript, Node.js, Express, Prisma, PostgreSQL, JSON Web Tokens (JWT), Git, Notion, GitHub, Vercel' />
+                    skills='JavaScript, Node.js, Express, Prisma, PostgreSQL, JSON Web Tokens (JWT), Git, Notion, GitHub, Vercel' 
+                    demoLink='https://github.com/SamCaro/DEV008-burger-queen-api' />
 
                 <ContainerProjects
                     img='RedSocial'
