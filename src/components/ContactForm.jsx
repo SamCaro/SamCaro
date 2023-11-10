@@ -36,12 +36,12 @@ export const ContactForm = () => {
     <>
       <Header />
       <article className='h-20 sm:h-[300px]'>
-        <h1 className='text-xl font-bold sm:text-4xl  ml-[220px] sm:ml-[250px]  text-GrayishBlue hover:text-black sm:text-black sm:hover:text-GrayishBlue transition-transform duration-300 hover:scale-125'>CONTACT</h1>
+        <h1 className='text-xl font-bold sm:text-4xl  ml-[220px] sm:ml-[250px]   hover:text-GrayishBlue transition-transform duration-300 hover:scale-125'>CONTACT</h1>
 
         {/* <AnimationLogo /> */}
 
         <form ref={refForm} onSubmit={handleSubmit(onSubmit)} className='bg-white mt-2 h-[300px] w-[210px] p-4 ml-[100px] text-Roboto shadow-md rounded-sm border border-gray-300 border-solid sm:w-[500px] sm:h-[600px] sm:pt-20 sm:ml-[600px] sm:mt-[-200px]'>
-          <div className='flex flex-col shadow-md border border-gray-300 border-solid mb-10 text-[12px] sm:mb-12'>
+          <div className='flex flex-col shadow-md border border-solid border-zinc-300 rounded-sm mb-10 text-[12px] sm:mb-12'>
             <input name='username' id='username' type='text' className='sm:h-12 sm:text-[16px]' {...register('name', {
               required: true,
               maxLength: 10,
@@ -56,7 +56,7 @@ export const ContactForm = () => {
             {errors.name?.type === 'required' && <p className='text-black'>Name is required</p>}
             {errors.name?.type === 'maxLength' && <p className='text-black'>Name must be less than 10 characters</p>}
           </div>
-          <div className='flex flex-col shadow-md border border-gray-300 border-solid mb-10 text-[12px] sm:mb-12 '>
+          <div className='flex flex-col shadow-md border border-solid border-zinc-300 rounded-sm mb-10 text-[12px] sm:mb-12 '>
             <input name="useremail" id='useremail' className='sm:h-12 sm:text-[16px]' type='text' {...register('useremail', {
               required: true,
               pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i // nombre@dominio.com
@@ -69,7 +69,7 @@ export const ContactForm = () => {
               }} />
             {errors.useremail?.type === 'pattern' && <p>Please enter a valid Email</p>}
           </div>
-          <div className='flex flex-col shadow-md border border-gray-300 border-solid mb-10 text-[12px] sm:mb-12'>
+          <div className='flex flex-col shadow-md border border-solid border-zinc-300 rounded-sm mb-10 text-[12px] sm:mb-12'>
             <textarea name="message" className='h-12 sm:h-24 sm:text-[16px]' type='text' {...register('message', {
               required: true
             })}
