@@ -40,7 +40,7 @@ export const AboutMe = () => {
 
         </div>
       </div>
-      <div className="sm:ml-[850px] sm:mt-[-900px] sm:h-[600px] sm:w-[250px] bg-black  w-full h-[350px] p-10 sm:ml-3  sm:rounded-lg text-white
+      <div className="sm:ml-[850px] sm:mt-[-900px] sm:h-[600px] sm:w-[250px] bg-black  w-full h-[350px] p-10   sm:rounded-lg text-white
       ">        
         <p className=" text-Roboto">
         Hi my name is {' '}
