@@ -14,14 +14,14 @@ export const Header = () => {
 
   return (
     <header className='Header flex justify-between items-center'>
-       <img className='Header-logo mt-1 ml-[-50px] w-[50px] h-[50px] sm:ml-14' src={planta} alt="Logo SC" />
+       <img className='Header-logo opacity-0 mt-1 ml-[50px] w-[50px] h-[50px] sm:ml-14' src={planta} alt="Logo SC" />
 
       <AnimmetionLogo />
 
       <div className='flex flex-col items-center mr-20 mt-[1px] sm:ml-20 sm:flex-row'>
         <button className='Header-button sm:hidden' onClick={toggleMenu}>
 
-          <img className={`Header-menu w-12 h-10 cursor-pointer ${menu ? 'opacity-1' : ''}`} src={burgerMenu} alt='Menu Hamburguesa' />
+          <img className={`Header-menu w-10 h-10 cursor-pointer ${menu ? 'opacity-1' : ''}`} src={burgerMenu} alt='Menu Hamburguesa' />
         </button>
 
         <nav className={`Header-nav sm:mt-[-100px] sm:flex sm:bg-withe sm:text-black ${menu ? 'isActive w-100  bg-white text-GrayishBlue p-10' : ''}`}>
