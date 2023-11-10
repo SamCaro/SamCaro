@@ -6,7 +6,7 @@ export const AboutMe = () => {
   return (
     <>
       <Header />
-      <div className="flex ml-[10px] p-4 sm:ml-[400px] transition-transform duration-500 hover:scale-125 hover:text-GrayishBlue">
+      <div className="flex ml-[120px] p-4 sm:ml-[400px] transition-transform duration-500 hover:scale-125 hover:text-GrayishBlue">
         <p className="text-4xl font-bold">ABOUT</p>
         <p className="text-4xl font-bold ml-2">ME</p>
       </div>
