@@ -1,6 +1,7 @@
 section {
   display: flex;
   justify-content: space-around;
+  background: white;
 }
 
 .image-container {
@@ -12,7 +13,7 @@ section {
 
 .overlay {
   position: absolute;
-  top: -100px;
+  top: -90px;
   left: 2;
   width: 100%;
   height: 50%;
@@ -36,7 +37,7 @@ section {
 .content {
   text-align: center;
   color: rgba(246, 242, 252, 0.856);
-  padding: 20px;
+  padding: 10px;
 }
 
 .demo-button {

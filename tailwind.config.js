@@ -9,6 +9,7 @@ module.exports = {
         DarkGrayisBlue: 'hsl(236, 13%, 42%)',
         SoftOrange: 'hsl(35, 77%, 62%)',
         Flowers: 'rgba(27, 9, 38, 1)',
+        verdebiche: '#00ff00',
       }
     }
   },

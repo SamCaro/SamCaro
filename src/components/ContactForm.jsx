@@ -36,11 +36,11 @@ export const ContactForm = () => {
     <>
       <Header />
       <article className='bg-white h-20 rounded-bl-[50px] sm:rounded-bl-[70px] sm:h-[300px]'>
-        <h1 className='text-4xl font-bold ml-[130px] sm:ml-[230px] '>CONTACT</h1>
+        <h1 className='text-xl font-bold sm:text-4xl  ml-[100px] sm:ml-[250px] hover:text-GrayishBlue transition-transform duration-300 hover:scale-125'>CONTACT</h1>
 
         {/* <AnimationLogo /> */}
 
-        <form ref={refForm} onSubmit={handleSubmit(onSubmit)} className='bg-white h-[300px] sm:h-[480px] w-[210px] p-4 ml-[100px] text-Roboto shadow-md rounded-sm border border-gray-300 border-solid sm:w-[500px] sm:h-[700px] sm:pt-20 sm:ml-[600px] sm:mt-[-200px]'>
+        <form ref={refForm} onSubmit={handleSubmit(onSubmit)} className='bg-white mt-2 h-[300px] w-[210px] p-4 ml-[100px] text-Roboto shadow-md rounded-sm border border-gray-300 border-solid sm:w-[500px] sm:h-[600px] sm:pt-20 sm:ml-[600px] sm:mt-[-200px]'>
           <div className='flex flex-col shadow-md border border-gray-300 border-solid mb-10 text-[12px] sm:mb-12'>
             <input name='username' id='username' type='text' className='sm:h-12 sm:text-[16px]' {...register('name', {
               required: true,
@@ -70,7 +70,7 @@ export const ContactForm = () => {
             {errors.useremail?.type === 'pattern' && <p>Please enter a valid Email</p>}
           </div>
           <div className='flex flex-col shadow-md border border-gray-300 border-solid mb-10 text-[12px] sm:mb-12'>
-            <input name="message" className='sm:h-12 sm:text-[16px]' type='text' {...register('message', {
+            <textarea name="message" className='h-12 sm:h-24 sm:text-[16px]' type='text' {...register('message', {
               required: true
             })}
               placeholder='MESSAGE'
@@ -85,8 +85,8 @@ export const ContactForm = () => {
           <input name='send' className='text-[12px] bg-zinc-300 w-[160px] h-6 rounded-sm border border-gray-300 border-solid sm:mb-12 sm:h-12 sm:w-[400px] sm:ml-[30px] hover:text-white hover:shadow-md cursor-pointer' type='submit' value='SEND' />
           {sendConfirmation && <p className='text-[12px]'>Thank You {name}!</p>}       
         </form>
-        <p className='mt-12 text-[10px] text-center sm:text-[14px] sm:mt-[-200px] sm:mr-[600px]'>
-            You can also write to my email
+        <p className='mt-8 sm:mt-[-400px] text-[12px] text-center sm:text-[14px] sm:mt-[-350px] sm:mr-[600px]'>
+           Email {' '}
             <a
               className='text-DarkGrayisBlue hover:underline'
               href='mailto:slcaroquiroga@gmail.com'
@@ -96,11 +96,12 @@ export const ContactForm = () => {
           </p>
         <div className='flex items-center justify-center space-x-5 relative mt-8 sm:mr-[650px] '>
             <a href='https://www.linkedin.com/in/sandracaroquiroga/' target='_blank' rel="noreferrer">
-              <img className='w-8 rounded-f hover:border-2 hover:border-white hover:rounded-full ' src={linkedin} alt='Logo Linkedin' />
+              <img className='w-10 sm:w-14 rounded-f hover:border-4 hover:border-white hover:rounded-full ' src={linkedin} alt='Logo Linkedin' />
             </a>
 
             <a href='https://github.com/SamCaro' target='_blank' rel="noreferrer">
-              <img className='w-8 hover:border-2 hover:border-white hover:rounded-full' src={github} alt='Logo Github' />
+              <img className='w-10 sm:w-14  hover:border-4 hover:border-white
+          hover:rounded-full' src={github} alt='Logo Github' />
             </a>
           </div>
       </article></>

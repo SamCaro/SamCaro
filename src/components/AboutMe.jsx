@@ -6,7 +6,7 @@ export const AboutMe = () => {
   return (
     <>
       <Header />
-      <div className="flex ml-[10px] p-4 sm:ml-[400px]">
+      <div className="flex ml-[10px] p-4 sm:ml-[400px] transition-transform duration-500 hover:scale-125 hover:text-GrayishBlue">
         <p className="text-4xl font-bold">ABOUT</p>
         <p className="text-4xl font-bold ml-2">ME</p>
       </div>
@@ -31,18 +31,35 @@ export const AboutMe = () => {
         </div>
 
         <div className='flex flex-col text-Roboto text-[16px] sm:text-[20px]'>
-          <p>Atención al detalle</p>
-          <p>Continuo</p>
-          <p>Aprendizaje</p>
-          <p>Resilencia</p>
-          <p>Trabajo</p>
-          <p>Colaborativo</p>
+          <p>Attention to detail</p>
+          <p>Continuous</p>
+          <p>learning</p>
+          <p>Resilience</p>
+          <p>Collaborative</p>
+          <p>work</p>
 
         </div>
       </div>
-      <div className="sm:ml-[850px] sm:mt-[-900px] sm:h-[600px] sm:w-[250px] bg-black w-[350px] h-[350px] p-10 ml-3  rounded-lg text-white transition-opacity hover:opacity-80">
-        <p className="text-center text-Roboto">
-          Hola, mi nombre es <span className="font-bold cursor-pointer hover:text-zinc-300">SANDRA CARO</span> y uso <span className="font-bold cursor-pointer hover:text-zinc-300">SAMCARO</span> como apodo en las redes sociales. Soy Developer Frontend de Colombia. Me apasionan los emprendimientos, crear nuevos proyectos útiles, tengo curiosidad por aprender nuevas tecnologías y codificación creativa. Quiero disfrutar mi vida enfrentando retos y evolucionando día a día. Me encanta estar rodeada de naturaleza, nadar y compartir con mi familia.
+      <div className="sm:ml-[850px] sm:mt-[-900px] sm:h-[600px] sm:w-[250px] bg-black  w-full h-[350px] p-10   sm:rounded-lg text-white
+      ">        
+        <p className=" text-Roboto">
+        Hi my name is {' '}
+        <span className="font-bold text-[18px] text-GrayishBlue hover:text-white">
+        SANDRA CARO
+        </span> {' '}
+        and use {' '}
+        <span className="font-bold text-[18px] text-GrayishBlue hover:text-white ">
+        SAMCARO
+        </span> {' '}
+         as a nickname on social networks. I'm a Frontend Developer from Colombia. I'm passionate about entrepreneurship, creating new useful projects, I'm curious to learn {' '}
+        <span className="font-bold text-[18px] text-GrayishBlue hover:text-white ">
+           new technologies
+           </span> {' '}
+           and {' '}
+           <span className="font-bold text-[18px] text-GrayishBlue hover:text-white ">
+         creative coding 
+           </span> 
+            . {' '}I Enjoy my life facing challenges and evolving day by day. I love the countryside, swimming and time with my family.
         </p>
       </div>
     </>
