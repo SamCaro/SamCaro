@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      Roboto: ['Gotham SSm A, sans-serif']
+    },
     extend: {
       colors: {
         military: '#1F5014',

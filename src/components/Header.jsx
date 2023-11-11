@@ -12,8 +12,9 @@ export const Header = () => {
     setMenu(!menu);
   };
 
+
   return (
-    <header className='Header flex justify-between items-center'>
+    <header id='Landing-header' className='Header flex justify-between items-center'>
        <img className='Header-logo opacity-0 mt-1 ml-[50px] w-[50px] h-[50px] sm:ml-14' src={planta} alt="Logo SC" />
 
       <AnimmetionLogo />
@@ -44,3 +45,4 @@ export const Header = () => {
     </header>
   );
 }
+
