@@ -83,9 +83,9 @@ export const ContactForm = () => {
           </div>
 
           <input name='send' className='text-[12px] bg-zinc-300 w-[160px] h-6 rounded-sm border border-gray-300 border-solid sm:mb-12 sm:h-12 sm:w-[400px] sm:ml-[30px] hover:text-white hover:shadow-md cursor-pointer' type='submit' value='SEND' />
-          {sendConfirmation && <p className='text-[12px]'>Thank You {name}!</p>}       
+          {sendConfirmation && <p className='text-[12px]'>Thank You!</p>}       
         </form>
-        <p className='mt-8 sm:mt-[-400px] text-[12px] text-center sm:text-[14px] sm:mt-[-350px] sm:mr-[600px]'>
+        <p className='mt-8 sm:mt-[-400px] text-[12px] text-center sm:text-[14px] sm:mr-[600px]'>
            Email {' '}
             <a
               className='text-DarkGrayisBlue hover:underline'

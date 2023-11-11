@@ -5,7 +5,7 @@ import React from 'react'
 export const AboutMe = () => {
   return (
     <>
-      <Header />
+       <Header />
       <div className="flex ml-[120px] p-4 sm:ml-[400px] transition-transform duration-500 hover:scale-125 hover:text-GrayishBlue">
         <p className="text-4xl font-bold">ABOUT</p>
         <p className="text-4xl font-bold ml-2">ME</p>
@@ -21,7 +21,7 @@ export const AboutMe = () => {
           <p>Tailwind</p>
         </div>
 
-        <div className=" text-[20px]  text-Roboto flex flex-col space-x-1 transform rotate-180 font-bold transform perspective-1 hover:scale-75 hover:text-zinc-300 transition-transform duration-1000 ease-in-out">
+        <div className=" text-[20px]  text-Roboto flex flex-col space-x-1 transform rotate-180 font-bold perspective-1 hover:scale-75 hover:text-zinc-300 transition-transform duration-1000 ease-in-out">
           <span className="transform rotate-90">S</span>
           <span className="transform rotate-90">K</span>
           <span className="transform rotate-90">I</span>
