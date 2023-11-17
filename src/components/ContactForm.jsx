@@ -36,7 +36,7 @@ export const ContactForm = () => {
     <>
       <Header />
       <article className='h-20 sm:h-[300px]'>
-        <h1 className='text-xl font-bold sm:text-4xl  ml-[220px] sm:ml-[250px]   hover:text-GrayishBlue transition-transform duration-300 hover:scale-125'>CONTACT</h1>
+        <h1 className='text-xl font-bold sm:text-4xl  ml-[220px] sm:ml-[250px]   hover:text-GrayishBlue transition-transform duration-300 hover:scale-125'>CONTACTO</h1>
 
         {/* <AnimationLogo /> */}
 
@@ -47,14 +47,14 @@ export const ContactForm = () => {
               maxLength: 10,
             })}
 
-              placeholder='NAME'
+              placeholder='NOMBRE'
               style={{
                 color: '#B0B0B0',
                 fontSize: '0.8rem',
                 margin: '4px',
               }} />
-            {errors.name?.type === 'required' && <p className='text-black'>Name is required</p>}
-            {errors.name?.type === 'maxLength' && <p className='text-black'>Name must be less than 10 characters</p>}
+            {errors.name?.type === 'required' && <p className='text-black'>Tu nombre es requerido</p>}
+            {errors.name?.type === 'maxLength' && <p className='text-black'>Tu nombre debe tener menos de 10 caracteres</p>}
           </div>
           <div className='flex flex-col shadow-md border border-solid border-zinc-300 rounded-sm mb-10 text-[12px] sm:mb-12 '>
             <input name="useremail" id='useremail' className='sm:h-12 sm:text-[16px]' type='text' {...register('useremail', {
@@ -67,23 +67,23 @@ export const ContactForm = () => {
                 fontSize: '0.8rem',
                 margin: '4px',
               }} />
-            {errors.useremail?.type === 'pattern' && <p>Please enter a valid Email</p>}
+            {errors.useremail?.type === 'pattern' && <p>Por favor ingresa un Email valido</p>}
           </div>
           <div className='flex flex-col shadow-md border border-solid border-zinc-300 rounded-sm mb-10 text-[12px] sm:mb-12'>
             <textarea name="message" className='h-12 sm:h-24 sm:text-[16px]' type='text' {...register('message', {
               required: true
             })}
-              placeholder='MESSAGE'
+              placeholder='MENSAJE'
               style={{
                 color: '#B0B0B0',
                 fontSize: '0.8rem',
                 margin: '4px',
               }} />
-            {errors.message?.type === 'required' && <p className='text-black'>Enter a message</p>}
+            {errors.message?.type === 'required' && <p className='text-black'>Ingresa un mensaje</p>}
           </div>
 
           <input name='send' className='text-[12px] bg-zinc-300 w-[160px] h-6 rounded-sm border border-gray-300 border-solid sm:mb-12 sm:h-12 sm:w-[400px] sm:ml-[30px] hover:text-white hover:shadow-md cursor-pointer' type='submit' value='SEND' />
-          {sendConfirmation && <p className='text-[12px]'>Thank You!</p>}       
+          {sendConfirmation && <p className='text-[12px]'>Gracias, Muy pronto me estare comunicando contigo!</p>}       
         </form>
         <p className='mt-8 sm:mt-[-400px] text-[12px] text-center sm:text-[14px] sm:mr-[600px]'>
            Email {' '}

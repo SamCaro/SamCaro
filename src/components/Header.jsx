@@ -28,16 +28,16 @@ export const Header = () => {
         <nav className={`Header-nav sm:mt-[-100px] sm:flex sm:bg-withe sm:text-black ${menu ? 'isActive w-100  bg-white text-GrayishBlue p-10' : ''}`}>
           <ul className=' Header-ul flex flex-col text-[16px] sm:w-[400px] sm:text-[18px] sm:place-content-around sm:items-center sm:flex-row sm:space-x-4 sm:ml-50'>
             <Link to='/' className='hover:text-zinc-300' >
-              HOME
+              INICIO
             </Link>
             <Link to='/AboutMe' className='Header-li hover:text-zinc-300'>
-              ABOUT ME
+              ACERCA DE MI
             </Link>
             <Link to='/Projects' className='Header-li hover:text-zinc-300'>
-              PROJECTS
+              PROYECTOS
             </Link>
             <Link to='/Contact' className='Header-li hover:text-zinc-300'>
-              CONTACT
+              CONTACTO
             </Link>
           </ul>
         </nav>

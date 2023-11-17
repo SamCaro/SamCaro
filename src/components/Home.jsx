@@ -16,8 +16,8 @@ export const Home = () => {
       <section className='h-screen p-3 pt-20 sm:mt-[-150px]'>
         <div className='flex flex-col sm:flex  sm:justify-evenly'>
           <div className='bg-white ml-20 sm:text-[40px] black  flex flex-col justify-center items-center'>
-            <h1 className="text-5xl font-bold text-black transition-transform duration-500 hover:scale-105 hover:text-GrayishBlue">Hi! I'm SANDRA CARO</h1>
-            <p className="text-4xl font-normal text-black transition-transform duration-300 hover:scale-125 hover:text-zinc-300">Frontend Developer</p>
+            <h1 className="text-5xl font-bold text-black transition-transform duration-500 hover:scale-105 hover:text-GrayishBlue">Hola! Soy SANDRA CARO</h1>
+            <p className="text-4xl font-normal text-black transition-transform duration-300 hover:scale-125 hover:text-zinc-300">Desarrolladora Web</p>
           </div>
           <img
             alt='Developer'
