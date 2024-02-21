@@ -24,7 +24,7 @@ const AnimationLogo = () => {
         }}
       >
         <img
-          className={` ${hovered ? 'opacity-0' : 'opacity-100'
+          className={`${hovered ? 'opacity-0' : 'opacity-100'
             }`}
           src={Flowers}
           alt="Flowers"
@@ -40,7 +40,7 @@ const AnimationLogo = () => {
             color: hovered ? 'rgb(0, 95, 0)' : 'white',
           }}
         >
-          20.23
+          Nice Day!!
         </p>
       </div>
     </div>

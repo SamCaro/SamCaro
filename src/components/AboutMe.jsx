@@ -1,21 +1,23 @@
 import { Header } from "./Header";
-
+import perfil from '../assets/img/perfil.png';
 import React from 'react'
 
 export const AboutMe = () => {
   return (
     <>
        <Header />
-      <div className="flex ml-[15px] p-4 sm:ml-[400px] transition-transform duration-500 hover:scale-125 hover:text-GrayishBlue">
-        <p className="text-4xl font-bold">ACERCA</p>
-        <p className="text-4xl font-bold ml-2">DE MI</p>
-      </div>
+  <div className='bg-pink-200 flex flex-col sm:flex sm:justify-evenly'>
+          <img
+            alt='Developer'
+            src={perfil}
+            className='ml-10 opacity-80 w-[200px] sm:w-1/4 sm:ml-[300px] sm:h-auto rounded-full shadow-xl transition-transform duration-1000 hover:scale-105 filter brightness-125' />  
+        </div>
 
-      <div className="flex space-x-3 p-6 justify-between  sm:p-[500px] sm:mt-[-400px] sm:ml-[-300px]">
-        <div className='flex flex-col text-Roboto text-[16px] sm:text-[20px]'>
+      <div className="flex space-x-10 justify-between  sm:p-[500px] sm:mt-[-400px] sm:ml-[200px]">
+        <div className=' flex flex-col text-Roboto text-[16px] sm:text-[20px]'>
           <p>React</p>
           <p>Javascript</p>
-          <p>PostgreSQL</p>
+          <p>Figma</p>
           <p>HTML</p>
           <p>CSS</p>
           <p>Tailwind</p>
@@ -31,7 +33,6 @@ export const AboutMe = () => {
         </div>
 
         <div className='flex flex-col text-Roboto text-[16px] sm:text-[20px]'>
-          <p>Atencion al Detalle</p>
           <p>Continuo</p>
           <p>Aprendizaje</p>
           <p>Resilencia</p>
@@ -40,28 +41,29 @@ export const AboutMe = () => {
 
         </div>
       </div>
-      <div className="sm:ml-[850px] sm:mt-[-900px] sm:h-[600px] sm:w-[250px] bg-black  w-full h-[350px] p-10   sm:rounded-lg text-white
+      
+      <div className="sm:ml-[50px] sm:mt-[-1000px] sm:h-[600px] sm:w-[500px] bg-black  w-full h-[350px] p-10   sm:rounded-lg text-white
       ">        
-        <p className=" text-Roboto">
-        Hola mi nombre es {' '}
-        <span className="font-bold text-[18px] text-GrayishBlue hover:text-white">
-        SANDRA CARO
-        </span> {' '}
-        y uso {' '}
-        <span className="font-bold text-[18px] text-GrayishBlue hover:text-white ">
-        SAMCARO
-        </span> {' '}
-         como apodo en mis redes sociales. Soy una Desarrolladora Web de Colombia. Me apasiona el emprendimiento, la creación de nuevos proyectos útiles, tengo curiosidad por aprender {' '}
-        <span className="font-bold text-[18px] text-GrayishBlue hover:text-white ">
-        nuevas tecnologías
+        <p className=" text-Roboto text-2xl">
+        <span className="font-bold text-[244px] text-GrayishBlue hover:text-white">
+        SAM CARO
+        </span>  
+        {' '} Hola soy Sam Caro, Diseñadora y desarrolladora Web de Colombia. Me apasiona el emprendimientos, {' '}
+        <span className="font-bold  text-3xl text-GrayishBlue hover:text-white ">
+        la investigación
            </span> {' '}
            y {' '}
-           <span className="font-bold text-[18px] text-GrayishBlue hover:text-white ">
-           codificación creativa 
+           <span className="font-bold  text-4xl text-GrayishBlue hover:text-white ">
+           nuevas tecnologías
            </span> 
             . {' '} Disfruto mi vida afrontando retos y evolucionando día a día. Me encanta el campo, nadar y pasar tiempo con mi familia.
         </p>
       </div>
+      <footer className="bg-DarkGrayisBlue opacity-30 text-[12px] text-white p-1 mt-5">
+        <div className="container mx-auto text-center">
+          <p>SC &copy; 2024</p>
+        </div>
+      </footer>
     </>
   )
 }
