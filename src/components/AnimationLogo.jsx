@@ -13,7 +13,7 @@ const AnimationLogo = () => {
   };
 
   return (
-    <div className='ml-[-60px] sm:ml-[-350px]'>
+    <div className='ml-[-60px] sm:ml-[-350px] rounded-e-full'>
       <div
         onMouseEnter={handleHover}
         onMouseLeave={handleUnhover}
@@ -37,7 +37,7 @@ const AnimationLogo = () => {
               ? 'translate3d(10px, 10px, 0) scale(0.5)'
               : 'none',
             transition: 'transform 3s',
-            color: hovered ? 'rgb(0, 95, 0)' : 'white',
+            color: hovered ? 'rgb(200, 20, 250)' : 'white',
           }}
         >
           Nice Day!!
