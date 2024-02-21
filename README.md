@@ -1,5 +1,5 @@
 <h1 align="center">Front-end Developer 
-<h4 align="center"> 😄 Hi! I'm SANDRA CARO 👋 </h4>
+<h4 align="center"> 😄 Hi! I'm SAM CARO 👋 </h4>
 
 
 
