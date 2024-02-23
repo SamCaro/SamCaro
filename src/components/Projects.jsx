@@ -6,10 +6,19 @@ export const Projects = () => {
         <>
             <Header />
             <section className='flex flex-wrap'>
+            <ContainerProjects
+                    img='cocode'
+                    titulo='COCODE'
+                    descripcion='Ecosistema que te permite Navegar por perfiles, examinar proyectos, tecnologias que dominan, experiencias de colaboración, simplificar el proceso de busqueda, haciendo que la conexión con el talento perfecto sea más eficiente y efectivo'
+                    skills='Figma, JavaScript, React, Tailwinds' 
+                    demoLink='https://cocode.vercel.app/'
+                    isVideo={true} 
+                    />
+
                 <ContainerProjects
                     img='burgerQueenApi'
                     titulo='BURGER QUEEN API'
-                    descripcion='App que administra consultas entrantes y ofrecer respuestas en relacion con la gestión de órdenes, trabajadores y productos de un restaurante. Los endpoints agregan, visualizan, modifican y eliminan datos brindando un control total sobre la operaciones.'
+                    descripcion='App que administra consultas entrantes y ofrece respuestas en relacion con la gestión de órdenes, trabajadores y productos de un restaurante. Los endpoints agregan, visualizan, modifican y eliminan datos brindando un control total sobre la operaciones.'
                     skills='JavaScript, Node.js, Express, Prisma, PostgreSQL, JSON Web Tokens (JWT), Git, Notion, GitHub, Vercel' 
                     demoLink='https://github.com/SamCaro/DEV008-burger-queen-api' />
 
@@ -17,7 +26,8 @@ export const Projects = () => {
                     img='RedSocial'
                     titulo='THE BIKE COMMUNITY'
                     descripcion='Red social para comunidad de mujeres ciclistas. Esta SPA Responsive la desarrolle junto con dos colaboradoras mas. Usamos Firebase como back-end. Se realizaron test unitarios.'
-                    skills='Html, JavaScript, CSS, Jest, Git, Trello, Corel Draw, Google Forms, Figma, Notion, Firebase, Firestore.'
+                    // skills='Html, JavaScript, CSS, Jest, Git, Trello, Corel Draw, Google Forms, Figma, Notion, Firebase, Firestore.'
+                    skills=''
                     demoLink='https://the-bike-community.web.app/' />
 
                 <ContainerProjects

@@ -13,7 +13,7 @@ const AnimationLogo = () => {
   };
 
   return (
-    <div className='ml-[-60px] sm:ml-[-350px] rounded-e-full'>
+    <div className='ml-[-60px] sm:ml-[-350px] rounded-full'>
       <div
         onMouseEnter={handleHover}
         onMouseLeave={handleUnhover}
@@ -40,7 +40,7 @@ const AnimationLogo = () => {
             color: hovered ? 'rgb(200, 20, 250)' : 'white',
           }}
         >
-          Nice Day!!
+          Nice Day!
         </p>
       </div>
     </div>

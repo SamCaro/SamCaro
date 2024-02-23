@@ -17,18 +17,22 @@ export const AboutMe = () => {
       </div>
       <section>
 
-      <div className="flex flex-col sm:ml-[50px] sm:w-[500px]  w-full h-[350px] p-10   sm:rounded-lg text-black
+        <div className="flex flex-col sm:ml-[50px] sm:w-[500px]  w-full h-[350px] p-10   sm:rounded-lg text-black
       ">
-          <p className="text-Roboto text-2xl">
-            Hola soy Diseñadora y desarrolladora Web de Colombia. Me apasiona el emprendimientos, {' '}
+          <p className="text-Roboto text-xl">
+            Hola soy Diseñadora y desarrolladora Web de Colombia, apasionada por los emprendimientos, {' '}
             <span className="font-bold  text-3xl text-GrayishBlue hover:text-white ">
-              la investigación
+              investigación
             </span> {' '}
             y {' '}
-            <span className="font-bold  text-4xl text-GrayishBlue hover:text-white ">
-              nuevas tecnologías
+            <span className="font-bold  text-2xl text-GrayishBlue hover:text-white ">
+              tecnología
             </span>
-            . {' '} Disfruto mi vida afrontando retos y evolucionando día a día. Me encanta el campo, nadar y pasar tiempo en familia.
+            .{' '} Mi vida está impulsada por la emoción de afrontar retos y evolucionar constantemente. Combino creatividad y habilidades técnicas para ofrecer soluciones innovadoras. 
+          </p> 
+          {' '}
+          <p className="text-Roboto text-xl">
+            Fuera de lo digital, encuentro inspiración en el campo, donde disfruto de la tranquilidad y conexión con la naturaleza. Nadar es mi escape favorito, proporcionandome energía renovada y claridad mental. Además, valoro el tiempo en familia como un pilar fundamental en mi vida.
           </p>
         </div>
 
@@ -60,10 +64,10 @@ export const AboutMe = () => {
 
           </div>
         </div>
-    
+
       </section >
-      <footer className="bg-DarkGrayisBlue opacity-30 text-[12px] text-white p-1 mt-5">
-        <div className="container mx-auto text-center">
+      <footer className="bg-DarkGrayisBlue opacity-30 text-[12px] text-white p-1 mt-12">
+        <div className="container ml-[950px]">
           <p>SC &copy; 2024</p>
         </div>
       </footer>
