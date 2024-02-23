@@ -17,7 +17,7 @@ export const AboutMe = () => {
       </div>
       <section>
 
-        <div className="flex flex-col sm:ml-[50px] sm:w-[500px]  w-full h-[350px] p-10   sm:rounded-lg text-black
+        <div className="flex flex-col sm:ml-[10px] sm:w-[700px]  w-full h-[350px] p-10   rounded-lg text-black
       ">
           <p className="text-Roboto text-xl">
             Hola soy Diseñadora y desarrolladora Web de Colombia, apasionada por los emprendimientos, {' '}
@@ -31,7 +31,7 @@ export const AboutMe = () => {
             .{' '} Mi vida está impulsada por la emoción de afrontar retos y evolucionar constantemente. Combino creatividad y habilidades técnicas para ofrecer soluciones innovadoras. 
           </p> 
           {' '}
-          <p className="text-Roboto text-xl">
+          <p className="mt-6 text-Roboto text-xl">
             Fuera de lo digital, encuentro inspiración en el campo, donde disfruto de la tranquilidad y conexión con la naturaleza. Nadar es mi escape favorito, proporcionandome energía renovada y claridad mental. Además, valoro el tiempo en familia como un pilar fundamental en mi vida.
           </p>
         </div>

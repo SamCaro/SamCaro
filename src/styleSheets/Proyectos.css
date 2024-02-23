@@ -1,7 +1,8 @@
 section {
   display: flex;
-  justify-content: space-around;
- 
+justify-content: space-around;
+  margin: 20px;
+  margin-top: 2px;
 }
 
 .image-container {
@@ -31,31 +32,27 @@ section {
   margin-top: 20px;
   transition: height 0.3s ease;
   background: linear-gradient(to bottom right, #d1d5db, transparent);
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 100%; 
-  
+  opacity: 100%;
 }
 
 .content {
   text-align: center;
   /* color: rgba(246, 242, 252, 0.856); */
-  padding: 10px;
 }
 
 .demo-button {
   display: inline-block;
-  width: 250px;
+  padding-top: 8px;
+  width: 60px;
   height: 30px;
   background-color: black;
   color: white;
-  padding: 4px;
-  font-size: 12px;
+  font-size: 8px;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 5px;
-  margin-bottom: 1px;
   transition: background-color 0.3s ease;
 }
 

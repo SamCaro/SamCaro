@@ -30,14 +30,14 @@ const AnimationLogo = () => {
           alt="Flowers"
         />
         <p
-          className={`absolute top-0 left-0 w-full h-full  text-2xl font-bold text-verdebiche  flex justify-center items-center ${hovered ? 'opacity-100' : 'opacity-0'
+          className={`absolute top-0 left-0 w-full h-full  text-6xl font-bold text-verdebiche  flex justify-center items-center ${hovered ? 'opacity-100' : 'opacity-0'
             }`}
           style={{
             transform: hovered
               ? 'translate3d(10px, 10px, 0) scale(0.5)'
               : 'none',
             transition: 'transform 3s',
-            color: hovered ? 'rgb(200, 20, 250)' : 'white',
+            color: hovered ? 'rgb(200, 180, 250) ' : 'white',
           }}
         >
           Nice Day!

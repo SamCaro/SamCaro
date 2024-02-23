@@ -14,7 +14,7 @@ export const Header = () => {
 
 
   return (
-    <header id='Landing-header' className=' Header flex justify-between items-center sm:mr-[-30px] '>
+    <header id='anding-header' className=' Header flex justify-between items-center sm:mr-[-30px] '>
        <img className='Header-logo opacity-0 mt-1 ml-[30px] w-[50px] h-[50px]' src={planta} alt="Logo SC" />
 
       <AnimmetionLogo />
