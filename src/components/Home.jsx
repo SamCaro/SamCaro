@@ -30,7 +30,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <footer className="bg-DarkGrayisBlue opacity-30 text-[12px] text-white p-1">
+      <footer className="bg-DarkGrayisBlue opacity-20 text-[12px] text-white p-1">
         <div className="container mx-auto text-center">
           <p>SANDRA CARO &copy; 2024</p>
         </div>

@@ -33,12 +33,12 @@ export const ContactForm = () => {
   };
 
   return (
-    <>
-      <Header />
-      <article className='h-20 sm:h-[300px]'>
+    <div className='bg-gray-100'>
+      <Header/>
+      <article className='ml-96 h-20 sm:h-[300px]'>
         <h1 className='text-xl font-bold sm:text-4xl  ml-[220px] sm:ml-[250px]   hover:text-GrayishBlue transition-transform duration-300 hover:scale-125'>CONTACTO</h1>
-        <p className='mt-8  text-[12px] text-center sm:text-[14px] sm:mr-[600px]'>
-          Email {' '}
+        <p className='mt-8  text-center text-xl sm:mr-[600px]'>
+          Email:{' '}
           <a
             className='text-DarkGrayisBlue hover:underline'
             href='mailto:slcaroquiroga@gmail.com'
@@ -57,7 +57,7 @@ export const ContactForm = () => {
           </a>
         </div>
       </article>
-    </>
+    </div>
   )
 }
 
