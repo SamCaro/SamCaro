@@ -6,12 +6,12 @@ export const AboutMe = () => {
   return (
     <div>
       <Header />
-      <div className='border-b mt-[10px] bg-gradient-to-b from-fuchsia-200 to-white flex flex-col sm:flex sm:justify-evenly'>
+      <div className='mt-[-50px] sm:mt-[10px] bg-gradient-to-b from-fuchsia-200 to-fuchsia-10 flex flex-col sm:flex sm:justify-evenly'>
         <img
           alt='Developer'
           src={perfil}
-          className='w-1/6 mb-2 mt-2 ml-72 sm:mt-[-150px] opacity-60 sm:ml-[900px] sm:w-1/4 rounded-full shadow-sm transition-transform duration-1000 hover:scale-105 filter brightness-105' />
-        <span className="mt-[-60px] text-3xl p-2 mb-2 sm:mt-[-170px] sm:p-4 font-bold sm:text-9xl text-white hover:text-GrayishBlue" style={{ letterSpacing: '10px' }}>
+          className='w-1/6 mb-2 mt-2 ml-72 sm:mt-[-150px] opacity-60 sm:ml-[900px] sm:w-1/4 rounded-full shadow-2xl shadow-fuchsia-300 transition-transform duration-1000 hover:scale-105 filter brightness-105' />
+        <span className="mt-[-60px] text-4xl p-2 mb-2 sm:mt-[-170px] sm:p-4 font-bold sm:text-9xl text-white hover:text-GrayishBlue" style={{ letterSpacing: '10px' }}>
           SAM CARO
         </span>
       </div> 
@@ -84,8 +84,8 @@ export const AboutMe = () => {
 
        <footer class="bg-white rounded-lg ">
 
-        <hr class="my-6  border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 SC</span>
+        <hr class=" border-gray-200 sm:mx-auto" />
+        <span class="block p-6 text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2023 SC</span>
 
       </footer>
     </div>

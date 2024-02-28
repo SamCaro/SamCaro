@@ -13,7 +13,7 @@ const AnimationLogo = () => {
   };
 
   return (
-    <div className='ml-[-60px] sm:ml-[-350px] rounded-full'>
+    <div className='rounded-full sm:ml-[100px] '>
       <div
         onMouseEnter={handleHover}
         onMouseLeave={handleUnhover}
@@ -24,13 +24,13 @@ const AnimationLogo = () => {
         }}
       >
         <img
-          className={`${hovered ? 'opacity-0' : 'opacity-100'
+          className={`rounded-full m-2 ${hovered ? 'opacity-0 ' : 'opacity-50'
             }`}
           src={Flowers}
           alt="Flowers"
         />
         <p
-          className={`absolute top-0 left-0 w-full h-full  text-6xl font-bold text-verdebiche  flex justify-center items-center ${hovered ? 'opacity-100' : 'opacity-0'
+          className={`rounded-full absolute top-0 left-0 w-full h-full  text-6xl font-bold flex justify-center items-center ${hovered ? 'opacity-100' : 'opacity-0'
             }`}
           style={{
             transform: hovered

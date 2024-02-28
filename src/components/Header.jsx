@@ -1,39 +1,26 @@
 import React, { useState } from 'react';
-import planta from '../assets/img/planta.png';
-import burgerMenu from '../assets/img/burgerMenu.png';
 import '../styleSheets/Header.css'
 import { Link } from 'react-router-dom';
 import AnimmetionLogo from './AnimationLogo'
 
 export const Header = () => {
-  const [menu, setMenu] = useState(true);
-
-  const toggleMenu = () => {
-    setMenu(!menu);
-  };
-
+  const [menu] = useState(true);
 
   return (
-    <header id='anding-header' className='Header flex justify-between items-center sm:mr-[-30px] '>
-      <img className='Header-logo mr-2 opacity-0 mt-1  w-[50px] h-[50px]' src={planta} alt="Logo SC" />
-
+    <header id='anding-header' className='w-full Header flex justify-between items-center sm:mr-[-30px] '>
       <AnimmetionLogo />
 
-      <section className='flex flex-col items-center  mt-[1px] sm:flex-row'>
-        <button className='Header-button sm:hidden' onClick={toggleMenu}>
+      <section className='flex flex-col items-center sm:flex-row'>
 
-          <img className={`Header-menu w-10 h-10 cursor-pointer ${menu ? 'opacity-1' : ''}`} src={burgerMenu} alt='Menu Hamburguesa' />
-        </button>
-
-        <nav className={` Header-nav sm:mt-[-100px] sm:flex  sm:text-black ${menu ? 'isActive w-full  text-GrayishBlue p-10' : ''}`}>
-          <ul className=' Header-ul flex flex-col font-thin text-[14px] sm:w-[500px] sm:text-[18px] sm:place-content-around sm:items-center sm:flex-row sm:space-x-4 sm:ml-50'>
-            <Link to='/AboutMe' className='Header-li hover:text-zinc-300'>
+        <nav className={`Header-nav sm:mt-[-100px] sm:flex  sm:text-black ${menu ? 'isActive w-44 sm:w-full text-GrayishBlue' : ''}`}>
+          <ul className=' Header-ul flex flex-col font-thin p-4 text-[14px] sm:w-[500px] sm:text-[18px] sm:place-content-around sm:items-center sm:flex-row sm:space-x-4 sm:ml-50'>
+            <Link to='/AboutMe' className='Header-li no-underline hover:underline hover:text-zinc-300 decoration-2 underline-offset-8 '>
               ACERCA DE MI
             </Link>
-            <Link to='/Projects' className='Header-li hover:text-zinc-300'>
+            <Link to='/Projects'  className='Header-li no-underline hover:underline hover:text-zinc-300 decoration-2 underline-offset-8'>
               PROYECTOS
             </Link>
-            <Link to='/Contact' className='Header-li hover:text-zinc-300'>
+            <Link to='/Contact' className='Header-li no-underline hover:underline hover:text-zinc-300 decoration-2 underline-offset-8'>
               CONTACTO
             </Link>
           </ul>
