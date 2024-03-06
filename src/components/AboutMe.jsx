@@ -5,22 +5,35 @@ import React from 'react'
 export const AboutMe = () => {
   return (
     <div>
-      <Header />
-      <div className='mt-[-50px] sm:mt-[10px] bg-gradient-to-b from-fuchsia-200 to-fuchsia-10 flex flex-col sm:flex sm:justify-evenly'>
+      <Header/>
+      <div className='mt-[-50px] bg-gradient-to-b from-fuchsia-200 to-fuchsia-10 flex flex-col sm:flex sm:justify-evenly'>
         <img
           alt='Developer'
           src={perfil}
-          className='w-1/6 mb-2 mt-2 ml-72 sm:mt-[-150px] opacity-60 sm:ml-[900px] sm:w-1/4 rounded-full shadow-2xl shadow-fuchsia-300 transition-transform duration-1000 hover:scale-105 filter brightness-105' />
-        <span className="mt-[-60px] text-4xl p-2 mb-2 sm:mt-[-170px] sm:p-4 font-bold sm:text-9xl text-white hover:text-GrayishBlue" style={{ letterSpacing: '10px' }}>
+          className='w-1/6 mb-2 mt-2 ml-72 sm:mt-[10px] opacity-60 sm:ml-[900px] sm:w-1/4 rounded-full shadow-2xl shadow-fuchsia-300 transition-transform duration-1000 hover:scale-105 filter brightness-105' />
+
+<span className="mt-[-60px] text-4xl p-2 mb-2 sm:mt-[-400px] sm:p-4 font-bold sm:text-9xl text-GrayishBlue hover:text-pink-200" style={{ letterSpacing: '10px' }}>
           SAM CARO
         </span>
-      </div> 
-     <section className="flex flex-col sm:flex sm:flex-row overflow-x-hidden">
+        </div>
+<div className='mt-[-80px] sm:mt-[-100px] flex justify-center text-white h-24 w-96 sm:h-28 sm:w-full shadow-xl hue-rotate-90 -skew-x-12 -skew-y-12 shadow-black text-2xl font-thin bg-slate-10 rounded-md origin-center '>
+          <div className='mr-6'>
+            <h2>SAM</h2>
+          </div>
+        </div>
+      
+
+        <div className='flex justify-center text-white mt-80 h-36 sm:h-96 sm:w-80 sm:ml-[850px] sm:mt-4 sm:mb-28 rotate-45 sm:rotate-90 -hue-rotate-60 shadow-xl shadow-black text-xl font-thin bg-slate-10 -skew-x-12 -skew-y-12 rounded-md origin-center'>
+          <h2>CARO</h2>
+        </div>
+      
+      
+     <section className="flex flex-col sm:flex sm:flex-row overflow-x-hidden mt-[-450px]">
 
         <div className="sm:flex sm:flex-col sm:ml-[10px] sm:w-[700px]  w-full h-auto p-4   rounded-lg text-black
       ">
-          <p className="text-Roboto sm:text-lg">
-            Hola soy Diseñadora y desarrolladora Web de Colombia, apasionada por los emprendimientos, {' '}
+          <p className="text-Roboto text-sm sm:text-lg">
+            Soy Diseñadora y desarrolladora Web, apasionada por los emprendimientos, {' '}
             <span className="font-bold  sm:text-3xl text-GrayishBlue hover:text-white ">
               investigación
             </span> {' '}
@@ -36,20 +49,16 @@ export const AboutMe = () => {
             para ofrecer soluciones innovadoras.
           </p>
           {' '}
-          <p className="mt-6 text-Roboto sm:text-xl">
+          <p className="mt-6 text-Roboto text-sm sm:text-xl">
             Fuera de lo digital, encuentro inspiración en el{' '}
             <span className="font-bold  sm:text-2xl text-GrayishBlue hover:text-white ">
               campo
             </span>{' '}
-            , donde disfruto de la tranquilidad y conexión con la{' '}
+            , disfruto la tranquilidad y conexión con la{' '}
             <span className="font-bold  sm:text-3xl text-GrayishBlue hover:text-white ">
               naturaleza
             </span>{' '}
-            . Nadar es mi escape favorito, proporcionandome energía renovada y claridad mental. Además, valoro el tiempo en{' '}
-            <span className="font-bold  sm:text-2xl text-GrayishBlue hover:text-white ">
-              familia
-            </span>{' '}
-            como un pilar fundamental en mi vida.
+            . Nadar es mi escape, proporcionandome energía renovada y claridad mental.
           </p>
         </div>
 

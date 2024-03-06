@@ -2,24 +2,31 @@ import '../styleSheets/Proyectos.css';
 
 export function ContainerProjects(props) {
   return (
-<section className='p-20 hover:px-36'>
+    <section className='p-20 hover:px-36'>
 
       <div className="shadow-2xl overflow-hidden rounded-md sm:w-[200px] sm:h-[500px] 
       transition-transform hover:scale-150  hover:md:w-[500px] hover:flex hover:place-items-center hover:justify-center hover:border hover:bg-gray-100 hover:shadow-2xl hover:space-x-4 hover:z-50 hover:flex-col hover:sm:flex-row">
 
         < div className="image-container h-40 w-auto bg-gradient-to-br from-gray-300 to-transparent bg-opacity-20 rounded-lg">
-       
-            {props.isVideo ? (
-              <video className='w-full' controls>
-                <source src={require(`../assets/img/proyecto-${props.img}.mp4`)} type='video/mp4' />
-              </video>
-            ) : (
-              <img
-                className="w-full"
-                src={require(`../assets/img/proyecto-${props.img}.gif`)}
-                alt="Gif proyecto"
-              />
-            )}
+          {props.isImage && (
+            <img
+              className='w-full'
+              src={require(`../assets/img/proyecto-${props.img}.png`)}
+              alt='Proyecto'
+            />
+          )}
+           {props.isVideo ? (
+            <video className='w-full' controls>
+              <source src={require(`../assets/img/proyecto-${props.img}.mp4`)} type='video/mp4' />
+            </video>
+          ) : (
+            <img
+              className="w-full"
+              src={require(`../assets/img/proyecto-${props.img}.gif`)}
+              alt="Gif proyecto"
+            />
+          )}
+
         </div>
         <div className=" toggleDescription rounded-lg hover:overlay
         ">
@@ -35,7 +42,7 @@ export function ContainerProjects(props) {
             </p>
 
             <div className='m-6  space-x-2 flex justify-around'>
-              
+
               <a href={props.demoLink} className="demo-button cursor-pointer hover:text-pink-400 " target='_black'
               >
                 Demo
@@ -48,6 +55,6 @@ export function ContainerProjects(props) {
           </div>
         </div>
       </div>
-      </section>
+    </section>
   );
 }
