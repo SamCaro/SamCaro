@@ -62,14 +62,15 @@ export const Projects = () => {
                     exploreLink='https://github.com/SamCaro/Counter-React'
                     />
 
-                {/* <ContainerProjects
+                 <ContainerProjects
                     img='calculate'
                     titulo='Play Calculator'
                     descripcion='SPA que permite realizar calculos en tiempo real, con un diseño lindo'
                     skills='React, Vercel.'
                     demoLink='https://calculator-react-livid.vercel.app/'
                     exploreLink='https://github.com/SamCaro/Calculator-React' 
-                    /> 
+                    isVideo={true} 
+                   />  
 
                 <ContainerProjects
                     img='InterfazReact'
