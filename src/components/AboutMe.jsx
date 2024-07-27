@@ -4,27 +4,32 @@ import React from 'react'
 
 export const AboutMe = () => {
   return (
-    <div>
+    <div className="relative">
       <Header/>
-      <div className='mt-[-50px] bg-gradient-to-b from-fuchsia-200 to-fuchsia-10 flex flex-col sm:flex sm:justify-evenly'>
-        <img
-          alt='Developer'
-          src={perfil}
-          className='w-1/6 mb-2 mt-2 ml-72 sm:mt-[10px] opacity-60 sm:ml-[900px] sm:w-1/4 rounded-full shadow-2xl shadow-fuchsia-300 transition-transform duration-1000 hover:scale-105 filter brightness-105' />
 
-<span className="mt-[-60px] text-4xl p-2 mb-2 sm:mt-[-400px] sm:p-4 font-bold sm:text-9xl text-GrayishBlue hover:text-pink-200" style={{ letterSpacing: '10px' }}>
-          SAM CARO
-        </span>
-        </div>
-<div className='mt-[-80px] sm:mt-[-100px] flex justify-center text-white h-24 w-96 sm:h-28 sm:w-full shadow-xl hue-rotate-90 -skew-x-12 -skew-y-12 shadow-black text-2xl font-thin bg-slate-10 rounded-md origin-center '>
+<div className='mt-[-50px] bg-gradient-to-b from-white to-fuchsia-100 flex flex-col sm:flex-row sm:justify-evenly relative z-50'> 
+ <div className="flex items-center justify-center sm:justify-start sm:w-1/2 sm:ml-10">
+    <span className="text-4xl p-2 mb-2 sm:p-4
+    
+    font-bold sm:text-8xl text-GrayishBlue hover:text-pink-200" style={{ letterSpacing: '10px' }}>
+      SAM CARO
+    </span>
+  </div>
+  <div className="flex items-center justify-center sm:justify-start sm:w-1/2">
+    <img
+      alt='Developer'
+      src={perfil}
+      className='w-1/6 mb-2 mt-2 ml-72 opacity-60 sm:w-52 rounded-full shadow-2xl shadow-fuchsia-300 transition-transform duration-1000 hover:scale-105 filter brightness-105' />
+  </div>
+</div>
+
+<div className='mt-[-80px] sm:mt-[-100px] flex justify-center text-white h-24 w-96 sm:h-28 sm:w-full shadow-xl hue-rotate-90 shadow-gray-100 text-2xl font-thin bg-slate-10 rounded-md origin-center '>
           <div className='mr-6'>
-            <h2>SAM</h2>
           </div>
         </div>
       
 
-        <div className='flex justify-center text-white mt-80 h-36 sm:h-96 sm:w-80 sm:ml-[850px] sm:mt-4 sm:mb-28 rotate-45 sm:rotate-90 -hue-rotate-60 shadow-xl shadow-black text-xl font-thin bg-slate-10 -skew-x-12 -skew-y-12 rounded-md origin-center'>
-          <h2>CARO</h2>
+        <div className=' flex justify-center text-white mt-96 h-24  shadow-xl  text-xl font-thin bg-slate-10  rounded-md origin-center'>
         </div>
       
       
@@ -94,7 +99,7 @@ export const AboutMe = () => {
        <footer class="bg-white rounded-lg ">
 
         <hr class=" border-gray-200 sm:mx-auto" />
-        <span class="block p-6 text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2023 SC</span>
+        <span class="block p-6 text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2024 SC</span>
 
       </footer>
     </div>
