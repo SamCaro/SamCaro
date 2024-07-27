@@ -10,6 +10,7 @@ export function ContainerProjects(props) {
         < div className="image-container h-40 w-auto bg-gradient-to-br from-gray-300 to-transparent bg-opacity-20 rounded-lg">
           {props.isImage && (
             <img
+            
               className='w-full'
               src={require(`../assets/img/proyecto-${props.img}.png`)}
               alt='Proyecto'
